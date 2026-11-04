@@ -115,18 +115,13 @@ MonoBehaviour:
     triggerExitEvent:
       m_PersistentCalls:
         m_Calls: []
-  triggeringObjectEvents:
-    triggeringObjectEnterEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    triggeringObjectExitEvent:
-      m_PersistentCalls:
-        m_Calls: []
   triggerableByPlayer: 1
   triggerableByObject: 0
   triggerableByTaggedObject: 0
   objectTag: 
-  destroyAfterTrigger: 0
+  limitNumberOfUses: 0
+  numberOfUses: 1
+  requiredEnabled: []
   drawTriggerArea: 1
   drawTriggerLines: 1
   triggerAreaColor: {r: 0, g: 1, b: 0, a: 0.5}
@@ -307,7 +302,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 5c3f8900a81b143ce98f3884e06ff5ed, type: 3}
-  m_Color: {r: 1, g: 0, b: 0.042179585, a: 1}
+  m_Color: {r: 0.20871688, g: 0.3915094, b: 0.16990031, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -328,4 +323,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6672b214852d14218be768a1337dc53d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  forceToAdd: {x: 0, y: 0, z: 0}
   consoleLog: 0
